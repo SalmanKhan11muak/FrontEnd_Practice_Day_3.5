@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!-- ---------------------Nav-bar --------------------------------------------------------------- -->
+    <nav>
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+            
+        </ul>
+
+        <ul>
+            <li class="menu-button" onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></i></a></li>
+            <li><a style="font-size: 40px; font-weight: bold;">Hockey<span style="color: red;">'</span>s</a></li>
+            <div class="nav-item">
+                <li class="hideOnMobile"><a href="#">Home</a></li>
+            <li class="hideOnMobile"><a href="#">About</a></li>
+            <li class="hideOnMobile"><a href="#">Pages</a></li>
+            <li class="hideOnMobile"><a href="#">Blog</a></li>
+            <li class="hideOnMobile"><a href="#">Contact</a></li>
+
+            </div>
+            
+            <h2>
+                <span>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <button class="get-ticket" type="submit">Get Ticket</button></h2>
+           
+        </ul>
+        
+    </nav>
+
+    <!-- --------------------- Slider Header --------------------------------------------------------------- -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Images/1.png" class="img-fluid d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="Images/2.png" class="img-fluid d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item active">
+                <img src="Images/3.png" class="img-fluid d-block w-100" alt="...">
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- --------------------- Slider Header 2(Meet all the heros ) --------------------------------------------------------------- -->
+    <section class="meet-all-heros">
+        <div class="heros">
+            <h2>Meet all the heros from the field</h2>
+            <h5 class="text-color" >Dit amet consectetur condimentum dignissim adipscing aliquam turpls turpis placerat door . purusurna in sit
+             nuilam proin. </h5>
+        </div>
+    </section>
+    
+    <!-- --------------------- main body-1 (Professional Hockeys club) --------------------------------------------------------------- -->
+    <div class="oneSideBorder">
+        <div class="main-club-section">
+            <h1>Professional Hockeys Club</h1>
+            <h5 class="text-color"> Dit amet consectetur condimentum dignissim adipscing aliquam turpls turpis placerat door . purusurna in sit
+                nuilam proin. </h5>
+        </div>
+    </div>
+    
+    <!-- --------------------- main body-2 ( 4 progress bar section) --------------------------------------------------------------- -->
+
+    <Section class="progress-section">
+      <div class="progress-row-tablet">
+
+        <div class="progress-part">
+            <div class="progress-bar progress-center">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 87%; font-size: 40px;" aria-valuenow="87"
+                        aria-valuemin="0" aria-valuemax="100">87%</div>
+                </div>
+            </div>
+            <div>
+            </div>
+            <div class="progress-title">
+                <h1>Prayer Facility</h1>
+                <h4 class="text-color">amet consectetur condimentum dignissim adipiscing</h4>
+            </div>
+        </div>
+
+        <div class="progress-part">
+            <div class="progress-bar progress-center">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%; font-size: 40px;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">95%</div>
+                </div>
+            </div>
+            <div>
+            </div>
+            <div class="progress-title ">
+                <h1>Experienced Coach</h1>
+                <h4 class="text-color">amet consectetur condimentum dignissim adipiscing</h4>
+            </div>
+        </div>
+
+      </div>
+        
+      <div class="progress-row-tablet">
+        <div class="progress-part">
+            <div class="progress-bar progress-center">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%; font-size: 40px;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">90%</div>
+                </div>
+            </div>
+            <div>
+            </div>
+            <div class="progress-title">
+                <h1>Senior Player</h1>
+                <h4 class="text-color">amet consectetur condimentum dignissim adipiscing</h4>
+            </div>
+        </div>
+
+
+        <div class="progress-part">
+            <div class="progress-bar progress-center">
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%; font-size: 40px;" aria-valuenow="25"
+                        aria-valuemin="0" aria-valuemax="100">80%</div>
+                </div>
+            </div>
+            <div>
+            </div>
+            <div class="progress-title">
+                <h1>Training Ground</h1>
+                <h4 class="text-color">amet consectetur condimentum dignissim adipiscing</h4>
+            </div>
+        </div>
+    </div>
+    </Section>
+
+
+
+
+  <div class="oneSideBorder">
+    <div class="main-club-section">
+        <h1>Program Section</h1>
+        <h5 class="text-color"> Dit amet consectetur condimentum dignissim adipscing aliquam turpls turpis placerat door . purusurna in sit
+            nuilam proin. </h5>
+    </div>
+  </div>
+
+
+    <!-- --------------------- main body-3 (program section pics) --------------------------------------------------------------- -->
+
+    <div class="programs-container">
+
+        <div class="container programs-container-row">
+            <div class="image-container">
+                <img src="Images/2.png" alt="Background Image">
+                <div class="overlay"></div>
+                <div class="text">
+                    <h1>Teenager Program</h1>
+                    <h4>dolor sit amet consectetur. ur urna diam quis sagittis. elit elit enim sagittis turpis in magna
+                        id et sed euismod notoque amet nunc morbi nulla tortor conque sed et in.</h4>
+                    <button>Register Now!</button>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="Images/3.png" alt="Background Image">
+                <div class="overlay"></div>
+                <div class="text">
+                    <h1>Teenager Program</h1>
+                    <h5 >dolor sit amet consectetur. ur urna diam quis sagittis. elit elit enim sagittis turpis in magna
+                        id et sed euismod notoque amet nunc morbi nulla tortor conque sed et in.</h5>
+                    <button>Register Now!</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container programs-container-row">
+            <div class="image-container">
+                <img src="Images/4.png" alt="Background Image">
+                <div class="overlay"></div>
+                <div class="text">
+                    <h1>Teenager Program</h1>
+                    <h4>dolor sit amet consectetur. ur urna diam quis sagittis. elit elit enim sagittis turpis in magna
+                        id et sed euismod notoque amet nunc morbi nulla tortor conque sed et in.</h4>
+                    <button>Register Now!</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------------  New Products--------------------------------------------------------------- -->
+
+ 
+
+    <div class="oneSideBorder">
+        <div class="main-club-section">
+            <h1>Our New Products</h1>
+            <p>Dit amer consectetur. Condimentum dignissim adipiscing aiquam tupis placerat dolor purus uma in sit
+                nullam proin.</p>
+        </div>
+    </div>
+
+
+    <!-- --------------------- Cards section --------------------------------------------------------------- -->
+
+    <section class="cards">
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/5.png" alt="Card image cap">
+                </div>
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">World Cup Flags Football</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/6.png" alt="Card image cap">
+                </div> 
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">World Cup Flags Football</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="cards">
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/7.png" alt="Card image cap">
+                </div>
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">ap for Hockeys</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/8.png" alt="Card image cap">
+                </div> 
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">World Cup Flags Football</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+    <section class="cards">
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/9.png" alt="Card image cap">
+                </div>
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">World Cup Flags Football</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+    
+        </div>
+
+        <div class="card card-section" >
+            <div class="card-section">
+                <div class="card-img">
+                    <img class="card-img-top" src="Images/10.png" alt="Card image cap">
+                </div> 
+                <div class="card-text">
+                    <i class="fa-solid fa-star card-text-gap" style="color: goldenrod;;"></i> 5.0  
+                    <i class="fa-regular fa-eye card-text-gap">&nbsp;20</i>
+                    <i class="fa-regular fa-heart">&nbsp; 200</i>
+                    <h4 class="card-text-gap">World Cup Flags Football</h4>
+                    <p>Dolor sit amet consectetur Ut urna diam quis sagittis.</p>
+                    
+                    <span>Price- $22.00 </span>
+                    <i class="fa-solid fa-cart-shopping"></i>Delivery Fee : Free
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+
+
+
+    <!-- --------------------- Clint Question  --------------------------------------------------------------- -->
+    
+    <div class="oneSideBorder">
+        <div class="main-club-section">
+            <h1>Clients Question</h1>
+            <p>Dit amer consectetur. Condimentum dignissim adipiscing aiquam tupis placerat dolor purus uma in sit
+                nullam proin.</p>
+        </div>
+    </div>
+
+    <section class="accordion-section">
+        <section class="accordion-pic">
+             <img src="Images/11.png" alt="">
+        </section>
+
+        <section class="accordion-text">
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span> Our Equipment </span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <span>Hockey Training</span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <span>Private Lessons</span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+              </div>    
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      <span> Ski Touring </span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      <span>Booking</span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      <span>Pricings</span>
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body"><p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna</p></div>
+                  </div>
+                </div>
+              </div>    
+
+        </section>
+    </section>
+
+
+
+        <!-- --------------------- Contact Section  --------------------------------------------------------------- -->
+    
+
+        <div class="oneSideBorder">
+            <div class="main-club-section">
+                <h1>Get In Touch </h1>
+                <p>Dit amer consectetur. Condimentum dignissim adipiscing aiquam tupis placerat dolor purus uma in sit
+                    nullam proin.</p>
+            </div>
+        </div>
+
+
+
+        <section class="contact-form">
+            <section class="contact">
+                <div>
+                    <img src="Images/Group 1171275317.png">
+                    <p>Contact Number</p>
+                    <h3>(+62)123-321-543</h3>
+                </div>
+                <div>
+                    <img src="Images/Group 1171275318.png">
+                    <p>Email</p>
+                    <h3>hockeys@support.com</h3>
+                </div>
+                <div>
+                    <img src="Images/Group 1171275321.png">
+                    <p>Location</p>
+                    <h3>152/1 Mohakhali Wireless Gate</h3>
+                </div>
+            </section>
+
+
+            <section class="form-part">
+                <div class="form-row">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"><h3>Your Name</h3></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Full Name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"><h3>Your Email</h3></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"><h3>Subject</h3></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Subject">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label"><h3>Phone Number</h3></label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Phone Number">
+                    </div>
+                </div>
+                
+                <div class="form-full-row">
+                    <div class=" mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"><h3>Message</h3></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"></textarea>
+                  </div>
+
+                  <div class="d-grid gap-2 col-12 mx-auto">
+                    <button class="btn btn-danger" type="button">Send Message</button>
+                  </div>
+                </div>
+               
+            </section>
+        </section>
+
+    <!-- ---------------------Social Media  --------------------------------------------------------------- -->
+    <div class="social-media">
+        <h2>Social Media</h2>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+    </div> 
+
+
+     
+
+    <!-- ---------------------Footer       ------------------------------------------------------------ -->
+
+    <section class="footer-section">
+        <div class="footer">
+           
+            <div class="get-in-touch">
+                <h3>Get In Touch</h3>
+                <p>Dit amer consectetur. Condimentum adipiscing aiquam tupis placerat dolor purus uma in sit
+                    nullam proin.</p>
+                    <i class="fa-solid fa-envelope"></i> hockeys@support.com <br><br>
+                    <i class="fa-solid fa-phone"></i>  (+62)123-321-543
+            </div>
+    
+            <div class="company">
+                <h3>company</h3>
+                <p>About us</p>
+                <p>Leadership</p>
+                <p>Careers</p>
+                <p>News & Article</p>
+                <p>Legal Notice</p>
+            </div>
+    
+            <div class="Support">
+                <h3>Support</h3>
+                <p>Help Center</p>
+                <p>FAQ</p>
+                <p>Ticket Support</p>
+                <p>Contact Us</p>
+            </div>
+    
+            <div class="Services">
+                <h3>Services</h3>
+                <p>Academy</p>
+                <p>Group Lesson</p>
+                <p>Private Lesson</p>
+                <p>Hockeys for Kids</p>
+                <p>Hockeys for Adult</p>
+            </div>
+        </div>
+    </section>
+
+<!-- ------------------------------menu Responsive js---------------------------------------- -->
+<script>
+    function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'
+    }
+</script>
+
+    <!-- script file cdn for javascript  ( bootstrap er model use a lagbe )-->
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
